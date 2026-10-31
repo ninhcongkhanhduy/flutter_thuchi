@@ -25,7 +25,7 @@ class AppLog {
         body: json.encode({'action_text': actionText, 'user_id': currentUserId}),
       );
     } catch (e) {
-      debugPrint('Lỗi khi lưu lịch sử: $e');
+      debugPrint('Lỗi khi lưu lịch sử : $e');
     }
   }
 }
